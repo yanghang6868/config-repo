@@ -5,6 +5,12 @@ spring:
   application:
     name: ruul
     
+  rabbitmq:
+    host: 192.168.161.130
+    port: 5672
+    username: admin
+    password: admin
+    
 eureka:
   client:
     service-url:
